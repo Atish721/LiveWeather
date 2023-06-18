@@ -4,9 +4,10 @@
 'strict mode'
 const express = require('express')
 const http = require('http')
-const app = express()
 const hbs = require('hbs')
 const path = require('path')
+
+const app = express()
 const geoLocationModule = require('./modules/geoLocationModule')
 // const geolocation = require('geolocation-utils')
 
